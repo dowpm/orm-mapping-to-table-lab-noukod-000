@@ -7,7 +7,8 @@ class Student
   end
 
   def self.create_table
-    sql = <<-SQL CREAT TABLE students (
+    sql = <<-SQL 
+    CREATE TABLE students (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
     grade TEXT
